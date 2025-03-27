@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAOASURBVGhD7ZrJa9RwFMd7dFfEDf0fRClJGHsJyVjpwYPgWlH0UBRcQT2KC7SKOHpQqiJUvLQi
+        eBcRUREXcDm4XL0I4tLFJul01Ca+l77okLxflpkkY8t84MuE5vfe+75JMvnll7Y0adIkP0xdWWoW5U5T
+        l3rgs9/U5Pvw+dLV5Ha/ocvdsL3NaF+zhML+D761tc21dHkPmHxu6rINcmLKhqaeWkWp66uqzqF0+TNU
+        bJ1v6MppaGCIMZlUg5YmnxjsUOZR+nwwNWU3FP/iM5OGPsMXs5PKZAd+Y1ZRvs0YSFnSAJ6yVDZdxrTC
+        CijyIVg0M7231rYtp/LpMKq2LsLEvkLZS5Pf/lhXWEg26sNpXzkbflZfsIVyEPyyPXPWt84iO7WTzzUR
+        JeUW2akNuOi284nzl6FLW8hWMvDOCwkG/QkbqO9Gx+rFZC8+EHjOl6jx0pQzZC8ew+qqBRA4GkgUovKx
+        /U7lcondxwnHlo/uY/eFaARnFGQzGuj8MJNEqPLxI47z66eDVPqusmOqVblxzR2LMRjLjRHJKMoHyGY0
+        7myVScKpugmPsGb+NuGRtBmYnJLNcOgOzidhhKcIR6X3QnBs70XaW4VtO5VL5wNjQ2SbqrSM7IqBGe1W
+        JjhU46VuMDRBzv5RfWQCRwKBGIytzhVHhiZvIrti4NCd5YKjFNZMmk2g8OGM7IqxNOUOFxxHomYC1NEE
+        CmcbZFcMDHzsD0yiyGbqbMKVJj8ku2Jg4OtAYEJNNmOT8yrgb3U34Up6RXbFwMA3wcBkwutCRJz7TLTi
+        NfIoGBhfYU14pNDMA7Irpp5pO9sEnmLMaVZfM9IA2RXjroywweHim5i8sMdLPe62n1qbgWnKSbIrBhrZ
+        yAWHKawJb0yazYxp8gayKwafkWHwhD9YpAZMUX7HngHjczKTgFX5UJdjWxa5AiLuE/4jg7Hlg13sWE5w
+        w35CNqOxNHkvl0QkNOI2E9GEJ6+ZpE2gcImVbEZDD1Yj/iRhyunBajjRgxXirprzyRomQ5dOkb344JIl
+        BH/yJ2ugPta8vgVT+k4mYUNkFKXNZKs24BS7ziXOU3ADvEJ2amfaLJkitIj9zl8kc6W5iO2Br8dgsnaP
+        LZiN7mb2Ss4pFGZCgZu+gumrKPU5qjqDymaHqUm7oGA2r940ZQeVyYdp8TK0min/eppjSv/DQJMm05qW
+        lj+LqD9ZiXeXbQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="PanelMinisize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAB9SURBVEhLYxgFZIP//xmY/r9ikKAYA82BGokJwAreAe2iFAPNgRqJCZAs2Q7EFWRgkD6iLamA
+        CpEEoBaNWkIcGLWEJDDCLQHSMf/fMyQQgWOh6smy5BuUTwj/gqonyxI9oCsNCGKgOqj6wRcndCmFKcN4
+        LaFHzTgK8AMGBgDcKiMjAV6bUAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Ø Bước 1: Truy cập vào website Dự án Bữa ăn Học Đường tại địa chỉ http://buaanhocduong.com.vn/
+
+Ø Bước 2: Đăng ký tài khoản sử dụng. Sau khi đăng ký, người dùng có thể đăng nhập với E-mail và mật khẩu đã đăng ký để sử dụng đầy đủ các chức năng của Phần mềm.
+
+Ø Bước 3: Chọn mục “PHẦN MỀM XÂY DỰNG THỰC ĐƠN CÂN BẰNG DINH DƯỠNG” tại thanh chức năng.
+
+Ø Bước 4: Chọn các chức năng khác nhau của Phần mềm tùy theo nhu cầu của người dùng, trong đó:
+
+· Chức năng 1: TẠO THỰC ĐƠN TỪ NGÂN HÀNG THỰC ĐƠN
+
+Cho phép người dùng tạo thực đơn bằng cách chọn thực đơn từ ngân hàng có sẵn đã cân bằng dinh dưỡng. Ngân hàng thực đơn có 120 thực đơn sẵn có (với trên 360 món ăn không lặp lại) cân bằng về dinh dưỡng, đa dạng thực phẩm và ngon miệng, được phân loại theo 3 khu vực miền Bắc, miền Trung và miền Nam.
+
+*Lưu ý: Các thực đơn trong “Ngân hàng thực đơn” được phát triển theo 2 tiêu chí:
+
+- Thực đơn dinh dưỡng:
+
+o Đáp ứng các tiêu chuẩn về dinh dưỡng theo Bảng nhu cầu năng lượng khuyến nghị cho người Việt Nam năm 2015:
+
+Nhóm tuổi
+
+Năng lượng bữa trưa
+
+(kcal)
+
+(chiếm 30 – 40% năng lượng một ngày)
+
+Tỷ lệ
+
+P : L : G
+
+6 - 7 tuổi
+
+454,5 – 606
+
+13 - 20%: 20 - 30%: 50 - 65%
+
+Trong đó tỷ lệ đạm cung cấp từ động vật trên đạm tổng số ≥ 48%
+
+8 - 9 tuổi
+
+532,5 – 710
+
+10 – 11 tuổi
+
+619,5 – 826
+
+               (Nguồn: Viện Dinh dưỡng Quốc gia)
+
+o Đa dạng với trên 10 loại nguyên liệu (không bao gồm gia vị), trong đó sử dụng phong phú nguồn nguyên liệu cung cấp chất đạm động vật (từ thịt, cá, tôm, cua, trứng, sữa …) và thực vật (từ đậu đỗ, lạc, vừng) cũng như kết hợp nhiều loại rau, củ, quả khác nhau.
+
+o Hạn chế sử dụng thực phẩm đóng gói và chế biến sẵn: Xúc xích, lạp sườn, giò, chả lụa...
+
+o Hạn chế sử dụng muối, đường.
+
+Để biết thêm về căn cứ khoa học xây dựng thực đơn, vui lòng tham khảo mục “Hỏi và Đáp” – “Về tiêu chuẩn dinh dưỡng”
+
+- Thực đơn ngon miệng, phù hợp với từng vùng miền:
+
+o Cấu trúc của thực đơn: bao gồm các món cơm, mặn, canh, xào và trái cây tráng miệng.
+
+o Các món ăn trong thực đơn phong phú, không lặp lại giữa các ngày và các tuần.
+
+o Thực đơn được phát triển phù hợp với khẩu vị của học sinh và từng vùng miền.
+
+o Sử dụng nguồn nguyên liệu sẵn có của địa phương theo thời điểm.
+
+· Chức năng 2: TẠO THỰC ĐƠN TỪ MÓN ĂN
+
+Cho phép người dùng tạo thực đơn cân bằng dinh dưỡng bằng cách kết hợp những món ăn có sẵn trong ngân hàng thực đơn để tạo ra vô số tổ hợp các thực đơn mới mà vẫn đảm bảo tính cân bằng dinh dưỡng, đa dạng và ngon miệng.
+
+· Chức năng 3: TẠO THỰC ĐƠN TỪ NGUYÊN LIỆU
+
+Cho phép người dùng tạo thực đơn cân bằng dinh dưỡng, đa dạng thực phẩm bằng các nguyên liệu và món ăn tự chọn, phù hợp với địa phương.
+
+· Chức năng 4: KIỂM TRA DINH DƯỠNG CỦA THỰC ĐƠN
+
+Cho phép người dùng kiểm tra nhanh tính cân bằng dinh dưỡng thực đơn của nhà trường đang sử dụng.
+
+· Chức năng 5: NHẬP GIÁ NGUYÊN LIỆU
+
+Cho phép người dùng nhập mới, thay đổi, điều chỉnh giá nguyên liệu theo thực tế để tính chi phí thực đơn.
+
+Ø Bước 5: Trong mục “PHẦN MỀM XÂY DỰNG THỰC ĐƠN CÂN BẰNG DINH DƯỠNG”, Chọn “HƯỚNG DẪN SỬ DỤNG” để xem các hướng dẫn chi tiết của từng chức năng; Hoặc nhấn nút “Xem HDSD” ở góc bên phải ngay tại chức năng người dùng đang thao tác.
+
+Ø Bước 6: Chọn mục “HỎI VÀ ĐÁP” tại thanh chức năng để xem câu trả lời của những thắc mắc thường gặp liên quan đến các tiêu chuẩn về dinh dưỡng, cách sử dụng ngân hàng thực đơn và món ăn và về Phần mềm.
+
+Ø Bước 7: Chọn mục “LIÊN HỆ” tại thanh chức năng nếu người dùng có những thắc mắc khác hoặc ý kiến đóng góp trong quá trình sử dụng Phần mềm.
+
+Ø Bước 8: Chọn mục “THÔNG TIN” tại thanh chức năng để xem các cập nhật, tin tức mới nhất về Dự án Bữa ăn học đường.
+</value>
+  </data>
+</root>

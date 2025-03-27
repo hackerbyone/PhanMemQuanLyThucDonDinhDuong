@@ -29,11 +29,22 @@ namespace Phần_Mềm_Dinh_Dưỡng
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (txtUserName.Text == "your_user_name" && txtPassword.Text == "your_password") 
+            if(txtUserName.Text == "Nam" && txtPassword.Text == "123")
+            {
+                labelError.Visible = false;
+                Dashboard ds = new Dashboard();
+                ds.Show();
+            }
+            else
+            {
+                labelError.Visible = true;
+                txtPassword.Clear();
+            }
+            /*if (txtUserName.Text == "your_user_name" && txtPassword.Text == "your_password")
             {
                 new Form_Quản_Lý_Chung.FormTrangChu().Show();
                 this.Hide();
-                    
+
 
             }
 
@@ -43,7 +54,7 @@ namespace Phần_Mềm_Dinh_Dưỡng
                 txtUserName.Clear();
                 txtPassword.Clear();
                 txtUserName.Focus();
-            }
+            }*/
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -56,6 +67,11 @@ namespace Phần_Mềm_Dinh_Dưỡng
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
