@@ -32,22 +32,7 @@ namespace Phần_Mềm_Dinh_Dưỡng
 
         }
 
-        private void PanelMoving_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void btnAddFromNganHangThucDon_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

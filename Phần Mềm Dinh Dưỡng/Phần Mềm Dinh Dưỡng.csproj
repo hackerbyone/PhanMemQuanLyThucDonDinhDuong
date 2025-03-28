@@ -67,8 +67,20 @@
     <Compile Include="Form Quản Lý Chung\Login Screen.Designer.cs">
       <DependentUpon>Login Screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form Quản Lý Chung\UC_HuongDanSuDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form Quản Lý Chung\UC_HuongDanSuDung.Designer.cs">
+      <DependentUpon>UC_HuongDanSuDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user control\UC_TaoThucDonTheoMau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user control\UC_TaoThucDonTheoMau.Designer.cs">
+      <DependentUpon>UC_TaoThucDonTheoMau.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form Quản Lý Chung\Login Screen.resx">
       <DependentUpon>Login Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Quản Lý Chung\UC_HuongDanSuDung.resx">
+      <DependentUpon>UC_HuongDanSuDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +103,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="user control\UC_TaoThucDonTheoMau.resx">
+      <DependentUpon>UC_TaoThucDonTheoMau.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
